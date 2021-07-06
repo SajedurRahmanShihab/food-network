@@ -14,13 +14,11 @@ body {
   width: 100%;
   border-radius: 3px;
   margin: 0px;
+  color: white;
 }
 .nav-bar img {
   width: 300px;
   height: 60px;
-}
-.nav-bar {
-  color: white;
 }
 
 .nav-bar a:hover {
