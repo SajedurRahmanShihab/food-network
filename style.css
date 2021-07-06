@@ -1,3 +1,76 @@
-body {
-  font-family: "Poppins", sans-serif;
+section {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+.half-width img {
+  width: 80%;
+}
+
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  color: white;
+  font-weight: 700px;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+
+.mid-section {
+  display: flex;
+  background-image: url(images/shapes/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+
+#image-2 {
+  width: 50%;
+}
+
+#recipe-text-section h1 {
+  text-align: center;
+  font-size: 40px;
+}
+#recipe-text-section-p {
+  padding: 10px 250px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+.cards-div {
+  margin-bottom: 50px;
+}
+
+.img-text {
+  padding: 10px;
+  margin: 0px 10px 0px 25px;
+  border: 2px solid #f1eded;
+  box-shadow: 2px 2px 11px 2px #c2bfbf;
+  border-radius: 20px;
+}
+
+.card-img {
+  width: 340px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 30px;
+}
+.img-text h2 {
+  font-size: 25px;
+  font-weight: 900;
+  text-align: center;
+}
+.img-text {
+  text-align: justify;
+
+  padding: 10px;
+}
+
+.cards-div {
+  display: flex;
 }
